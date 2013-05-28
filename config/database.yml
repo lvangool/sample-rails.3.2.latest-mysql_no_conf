@@ -1,0 +1,10 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: lv_mysql_no_conf_development
+  pool: 5
+  username: <%= ENV['MYSQL_USERNAME'] %>
+  password: <%= ENV['MYSQL_PASSWORD'] %>
+  host: localhost
+  port: 3306

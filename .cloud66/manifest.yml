@@ -2,8 +2,8 @@ development:
   rails:
     servers:
       - server:
-        unique_name: frontend
+        unique_name: frontends
   mysql:
     servers:
       - server:
-        same_as: frontend
+        same_as: frontends

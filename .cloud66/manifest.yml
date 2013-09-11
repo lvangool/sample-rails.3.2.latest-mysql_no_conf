@@ -2,11 +2,11 @@ development:
   rails:
     servers:
       - server:
+          same_as: frontends
+  mysql:
+    servers:
+      - server:
           unique_name: frontends
           vendor: aws
           region: us-east-1
           size: t1.micro       
-  mysql:
-    servers:
-      - server:
-          same_as: frontends

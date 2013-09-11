@@ -3,6 +3,9 @@ development:
     servers:
       - server:
           unique_name: frontends
+          vendor: aws
+          region: us-east-1
+          size: t1.micro       
   mysql:
     servers:
       - server:

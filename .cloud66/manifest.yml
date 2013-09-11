@@ -10,3 +10,24 @@ development:
           vendor: aws
           region: us-east-1
           size: t1.micro       
+staging:
+  rails:
+    servers:
+      - server:
+          unique_name: frontends
+          address: 123.123.123.123
+          username: fred
+          ssh_key_name: test
+  mysql:
+    servers:
+      - server:
+          same_as: frontends
+production:
+  rails:
+    servers:
+      - server:
+          unique_name: frontends
+          address: 123.123.123.123
+          username: fred
+          ssh_key_name: test
+

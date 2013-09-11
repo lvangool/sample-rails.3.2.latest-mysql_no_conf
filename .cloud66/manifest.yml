@@ -1,0 +1,9 @@
+development:
+  rails:
+    servers:
+      - server:
+        unique_name: frontend
+  mysql:
+    servers:
+      - server:
+        same_as: frontend

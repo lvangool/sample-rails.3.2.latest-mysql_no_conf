@@ -15,13 +15,10 @@ staging:
     servers:
       - server:
           unique_name: frontends
-          address: 123.123.123.123
-          username: fred
-          ssh_key_name: test
   mysql:
     servers:
       - server:
-          same_as: frontends
+          unique_name: blah
 production:
   rails:
     servers:
@@ -30,4 +27,6 @@ production:
           address: 123.123.123.123
           username: fred
           ssh_key_name: test
-
+  redis:
+    servers:
+      - server: external

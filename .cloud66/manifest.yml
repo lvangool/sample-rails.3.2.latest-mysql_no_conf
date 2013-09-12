@@ -14,11 +14,11 @@ staging:
   rails:
     servers:
       - server:
-          unique_name: frontends
+          unique_name: frontend
   mysql:
     servers:
       - server:
-          unique_name: blah
+          same_as: frontend
 production:
   rails:
     servers:

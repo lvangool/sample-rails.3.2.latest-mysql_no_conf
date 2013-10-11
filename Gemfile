@@ -13,4 +13,5 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'json', '~> 1.7.7'
 gem 'jquery-rails'
